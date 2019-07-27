@@ -22,11 +22,6 @@
     margin-bottom: 3%;
 }
 
-.input::placeholder {
-    color: green;
-    opacity: 1;
-  }
-
 .button {
       margin-left: 3%;
 }

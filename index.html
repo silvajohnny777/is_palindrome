@@ -6,17 +6,18 @@
     <title>Is palindrome?</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script defer src="./index.js"></script>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <section class="main-section hero is-fullheight is-bold is-info">
         <div class="hero-body">
           <div class="container-main container">
-            <h1 class="title" id="title">
-              Hello, let's check if your word is a palindrome.
+            <h1 class="title has-text-centered" id="title">
+              Hello, let's check if your word or sentence is a palindrome.
             </h1>
-            <form class="main-section-input ">
-            <input class="input is-rounded" id="palavra1" type="text" placeholder="Type your word here :)" oninput="process(this)">
+            <form class="main-section-input">
+            <input class="main-section-input input is-rounded" id="palavra1" type="text" placeholder="Type your word here :)" oninput="process(this)">
             <a class="button is-rounded" type="submit" onclick="is_palindrome()">Verify</a>
             </form>
             <h2 class="subtitle is-5 has-text-justified">
