@@ -1,7 +1,7 @@
 function is_palindrome() {
 	let palavra1 = document.getElementById('palavra1').value;
     let palavra1_invertida = [];    
-	let palavra1_nospace = palavra1.replace(/[^a-z0-9]/gi,'').toLowerCase();
+	let palavra1_nospace = palavra1.replace(/[^a-z0-9]/g,'').toLowerCase();
 	
 	for (let i = palavra1_nospace.length-1 ; i >= 0 ; i--) {
         palavra1_invertida.push(palavra1_nospace.charAt(i));
@@ -16,13 +16,5 @@ function is_palindrome() {
             document.getElementById('title').innerHTML = "Oh... '" +palavra1 +"' is not a palindrome :(";
             break;
         }
-    }
-	
-}
-
-// code bellow from web
-function process(input){
-  let value = input.value;
-  let numbers = value.replace(/[0-9]/g, "");
-  input.value = numbers;
+    }	
 }
