@@ -1,3 +1,8 @@
+.main-section {
+    background-image: url('https://ui-ex.com/images/vector-clouds-2.png')!important;
+    background-repeat: no-repeat;
+}
+
 .container-main {
     max-width: 40%;
 }
