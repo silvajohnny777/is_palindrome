@@ -1,0 +1,37 @@
+.container-main {
+    max-width: 40%;
+}
+
+.title {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%; 
+}
+
+.subtitle {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-section-input {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.input::placeholder {
+    color: green;
+    opacity: 1;
+  }
+
+.button {
+      margin-left: 3%;
+}
+
+.from {
+    float: right;
+}
+

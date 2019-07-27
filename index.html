@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Is palindrome?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <section class="main-section hero is-fullheight is-bold is-info">
+        <div class="hero-body">
+          <div class="container-main container">
+            <h1 class="title" id="title">
+              Hello, let's check if your word is a palindrome.
+            </h1>
+            <form class="main-section-input ">
+            <input class="input is-rounded" id="palavra1" type="text" placeholder="Type your word here :)" oninput="process(this)">
+            <a class="button is-rounded" type="submit" onclick="is_palindrome()">Verify</a>
+            </form>
+            <h2 class="subtitle is-5 has-text-justified">
+                A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam or racecar or the number 10801. 
+                Sentence-length palindromes may be written when allowances are made for adjustments to capital letters, punctuation, and word dividers, such as "A man, a plan, 
+                a canal, Panama!", "Was it a car or a cat I saw?" or "No 'x' in Nixon".
+            </h2>     
+            <p class="from">Wiki</p>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
